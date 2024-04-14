@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg bg-black/5 backdrop-blur-md fixed top-0 w-full z-1">
+  <div class="container">
+    <a class="navbar-brand font-heading text-2xl tex-bold" href="#" [routerLink]="['/dashboard']">Job Portal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse font-body text-lg" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#" [routerLink]="['/jobs']" [routerLinkActive]="['active']">Jobs
+            <span class="badge text-bg-primary">3</span></a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#" [routerLink]="['/employeeList']" [routerLinkActive]="['active']">Retries
+            <span class="badge text-bg-warning">2</span></a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#" [routerLink]="['/employeeList']" [routerLinkActive]="['active']">Recurring Jobs
+            <span class="badge text-bg-secondary">6</span></a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#" [routerLink]="['/employeeList']" [routerLinkActive]="['active']">Servers
+            <span class="badge text-bg-dark">7</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="fixed left-0 top-0 -z-10 h-full w-full">
+  <div class="absolute inset-0 left-0 top-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div class="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-fuchsia-400 opacity-20 blur-[100px]"></div>
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+

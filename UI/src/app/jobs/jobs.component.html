@@ -1,0 +1,63 @@
+<div class="container mt-20 flex space-x-10">
+    
+    <table class="table w-mini-table shadow-md bg-white font-body">
+      <thead>
+        <tr class="bg-gray-500 text-white">
+          </tr>
+      </thead>
+        <tbody>
+          <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Enqueued<span class="badge text-bg-primary">3</span></tr>
+          <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Scheduled<span class="badge text-bg-primary">3</span></tr>
+          <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Processing<span class="badge text-bg-primary">3</span></tr>
+          <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Succeeded<span class="badge text-bg-primary">3</span></tr>
+          <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Failed<span class="badge text-bg-primary">3</span></tr>
+            <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1" >
+                Deleted<span class="badge text-bg-primary">3</span></tr>
+            <tr class="h-10 hover:bg-gray-100 flex justify-between align-items-center px-2 border-1">
+            Awaiting<span class="badge text-bg-primary">3</span></tr>
+        </tbody>
+      </table>
+      <div>
+        <h1 class="text-5xl font-heading">Jobs</h1>
+        <ng-container>
+          <div class="bg-white border-2 rounded p-3">
+            <table class="w-auto table table-responsive font-body mt-3">
+              <thead>
+                  <tr>
+                      <!-- <th>Id</th> -->
+                      <th>Id</th>
+                      <th>State</th>
+                      <th>Job</th>
+                      <th>Enqueued</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr >
+                      <!-- <th>{{employee.id}}</th> -->
+                      <td>employee.firstNam</td>
+                      <td>employee.lastName</td>
+                      <td>employee.firstNam</td>
+                      <td>employee.lastName</td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+
+        </ng-container>
+        <ng-template #notFound1>
+          <div class="alert alert-warning mt-2 font-body" role="alert">
+            Info: No Data
+          </div>
+        </ng-template>
+      </div>
+   
+      
+      
+      
+</div>
+

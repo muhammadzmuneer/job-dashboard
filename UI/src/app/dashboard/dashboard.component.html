@@ -1,0 +1,29 @@
+<div class="container mt-20">
+    <h1 class="text-5xl font-heading">Dashboard</h1>
+    <div class="flex justify-center space-x-20 transition hover:duration-500 mt-10 font-body">
+        <div class="border-2 border-violet-700 rounded p-10 bg-white text-center text-2xl shadow-0 hover:shadow-md">2.4.5
+            <div class="text-sm text-normal">Redis Version</div>
+        </div>
+        <div class="border-2 border-violet-700 rounded p-10 bg-white text-center text-2xl shadow-0 hover:shadow-md">30
+            <div class="text-sm">Uptime(days)</div>
+        </div>
+        <div class="border-2 border-violet-700 rounded p-10 bg-white text-center text-2xl shadow-0 hover:shadow-md">25
+            <div class="text-sm">Connections</div>
+        </div>
+        <div class="border-2 border-violet-700 rounded p-10 bg-white text-center text-2xl shadow-0 hover:shadow-md">414.88M
+            <div class="text-sm">Memory Usage</div>
+        </div>
+        <div class="border-2 border-violet-700 rounded p-10 bg-white text-center text-2xl shadow-0 hover:shadow-md">567.21M
+            <div class="text-sm">Peak Memory Usage</div>
+        </div>
+    </div>
+
+    <h2 class="mt-10 mb-4 text-3xl font-heading">Realtime Graph</h2>
+    <div class="border-1 rounded p-10 bg-white/5 backdrop-blur-md shadow-0 hover:shadow-md">
+        <div class="chart-container">
+            <canvas  id="MyChart" >{{ chart }}</canvas>
+        </div>
+    </div>
+
+</div>
+

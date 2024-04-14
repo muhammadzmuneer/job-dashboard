@@ -1,0 +1,19 @@
+{
+
+"dashboard": {
+"data": {
+"redisVersion": 21.2,
+"uptime": 30,
+"connections": 5,
+"memoryUsage": 222
+},
+
+"graphData": ["3","2","6","7"],
+"indicators": {
+"jobs": 200,
+"retries": 3,
+"recurringJobs": 22,
+"servers": 2
+}
+}
+}
